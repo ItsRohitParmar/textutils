@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-       <Navbar title="Textutils" aboutText="About Textutils" />
+       <Navbar title="TextEditor" aboutText="About TextEditor" />
        <Form heading="Enter the text to analyze"/>
        <Footer/>
     </>
