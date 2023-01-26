@@ -1,0 +1,43 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 80vw;
+    justify-content: center;
+    margin: 4vmax auto;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.aboutus > div{
+    /* margin: 2vmax; */
+}
+
+.aboutus h4{
+    margin: 0vmax 3vmax 3vmax 3vmax;
+    font-size: 2vmax;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aboutus p{
+    font-size: 1.5vmax;
+}
+
+.projects{
+    display: flex;
+    width: 80vw;
+    margin: 2vmax auto;
+}
+.projects > a > button{
+    margin: 0 1vmax;
+    padding: 0 3vmax;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.projects > a > button:hover{
+    background-color: white;
+    color: black;
+}

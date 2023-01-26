@@ -55,7 +55,7 @@ export default function Form(props) {
 
     return (
         <>
-            <h3 className='m-2 text-center'>{props.heading}</h3>
+            <h3 className='m-2 my-5 text-center'>{props.heading}</h3>
 
             <div className="form-group m-5">
                 <textarea className="form-control my-3" placeholder='Enter text here...' value={text} id="textBox" onChange={handleOnChange} rows="8"></textarea>

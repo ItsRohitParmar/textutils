@@ -9,32 +9,24 @@ export default function Footer() {
                 <div className="container p-4">
                     {/* <!-- Section: Social media --> */}
                     <section className="mb-4">
-                        {/* <!-- Facebook --> */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
-                        ><i className="fab fa-facebook-f"></i></a>
+        
+                        {/* <!-- Linkedin --> */}
+                        <a className="btn btn-outline-light btn-floating m-1" target={"blank"} href="https://www.linkedin.com/in/rohit-parmar-b175151b9" role="button"
+                        ><i className="fab fa-linkedin-in"></i>
+                        </a>
 
-                        {/* <!-- Twitter --> */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
-                        ><i className="fab fa-twitter"></i
-                        ></a>
+                        {/* <!-- Github --> */}
+                        <a className="btn btn-outline-light btn-floating m-1" target={"blank"} href="https://github.com/ItsRohitParmar" role="button"
+                        ><i className="fab fa-github"></i>
+                        </a>
 
                         {/* <!-- Google --> */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
+                        <a className="btn btn-outline-light btn-floating m-1"  href="/" role="button"
                         ><i className="fab fa-google"></i></a>
 
                         {/* <!-- Instagram --> */}
                         <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
                         ><i className="fab fa-instagram"></i>
-                        </a>
-
-                        {/* <!-- Linkedin --> */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
-                        ><i className="fab fa-linkedin-in"></i>
-                        </a>
-
-                        {/* <!-- Github --> */}
-                        <a className="btn btn-outline-light btn-floating m-1" href="/" role="button"
-                        ><i className="fab fa-github"></i>
                         </a>
                     </section>
                     {/* <!-- Section: Social media --> */}

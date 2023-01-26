@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // eslint-disable-next-line
 export default function (props) {
   return (
@@ -11,9 +12,8 @@ export default function (props) {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="/">Home</a>
-        <a className="nav-link" href="/">{props.aboutText}</a>
-        <a className="nav-link" href="/">Contact Us</a>
+        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+        <Link className="nav-link" to="/about">About Us</Link>
       </div>
     </div>
   </div>
